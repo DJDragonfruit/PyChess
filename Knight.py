@@ -1,4 +1,3 @@
-from CoordFlip import coord_flip
 
 def knight(num2, num1):
     print("You have selected a knight")

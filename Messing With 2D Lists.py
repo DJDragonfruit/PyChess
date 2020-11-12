@@ -1,5 +1,4 @@
 from Knight import knight
-from CoordFlip import coord_flip
 
 chess = [
     [1, 2, 1, 2, 1, 2, 1, 2],
