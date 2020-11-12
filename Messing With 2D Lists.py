@@ -1,4 +1,5 @@
 from Knight import knight
+from CoordFlip import coord_flip
 
 chess = [
     [1, 2, 1, 2, 1, 2, 1, 2],
@@ -12,6 +13,7 @@ chess = [
 
 ]
 
+y_coord_flip = {1: 8, 2: 7, 3: 6, 4: 5, 5: 4, 6: 3, 7: 2, 8: 1}
 
 def piece_position(pos):
 
@@ -23,7 +25,7 @@ def piece_position(pos):
             if not num1d:
                 if char.isdigit():
                     while not num1d:
-                        num1 = int(char) - 1
+                        num1 = y_coord_flip[int(char)] - 1
                         if 0 <= num1 <= 7:
                             num1d = True
                         else:
