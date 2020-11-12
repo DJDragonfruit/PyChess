@@ -89,6 +89,8 @@ position = piece_position(posit)
 
 piece_number = position[0]
 
+print(piece_number)
+
 y = position[1]
 
 x = position[2]

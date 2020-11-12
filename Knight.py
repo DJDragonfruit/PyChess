@@ -16,7 +16,7 @@ def knight(num1, num2):
     possible_moves_u = []
 
     for move in movelist:
-        print(move)
+        # print(move)
         if move[0] > 7 or move[0] < 0 or move[1] > 7 or move[1] < 0:
             pass
         else:
@@ -28,10 +28,10 @@ def knight(num1, num2):
         res = [x + 1 for x in move]
         possible_moves = possible_moves + [res]
 
-    print(possible_moves)
+    # print(possible_moves)
 
-    for move in possible_moves:
-        print(move)
+    # for move in possible_moves:
+        # print(move)
 
     i = len(possible_moves)
 
@@ -50,7 +50,7 @@ def knight(num1, num2):
     else:
         move_choice = int(input(f"Which move would you like to make?:\n1. {possible_moves[0]}\n2. {possible_moves[1]}\n: "))
 
-    print(move_choice)
+    # print(move_choice)
 
     m = 0
 
@@ -80,6 +80,6 @@ def knight(num1, num2):
         new_coord_u = new_coord_u + [coord]
 
 
-    print(new_coord_u)
+    # print(new_coord_u)
 
     return new_coord_u
