@@ -1,6 +1,6 @@
 
 def knight(num2, num1):
-    print("You have selected a knight")
+    print("You have selected a knight!")
 
     move1 = [num2 - 2, num1 + 1]
     move2 = [num2 - 1, num1 + 2]
@@ -22,10 +22,10 @@ def knight(num2, num1):
         if move[0] > 7 or move[0] < 0 or move[1] > 7 or move[1] < 0:
             pass
         else:
-            print(move)
+            # print(move)
             possible_moves_u = possible_moves_u + [move]
 
-    print(possible_moves_u)
+    # print(possible_moves_u)
 
     possible_moves = []
 

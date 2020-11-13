@@ -11,7 +11,7 @@
  and smaller classes for each piece will inherit the values of the main piece class.
  Possibly need a game function for initializing a game, keeping track of killed units maybe?
  Maybe have a secondary array that prints alongside the first that can show all the killed units.
- Flip things around so it takes input as (x, y) not (y, x) because the game is supposed to be played by HUMANS
+ Flip things around so it takes input as (x, y) not (y, x) because the game is supposed to be played by HUMANS.
 
  NEW ORGANIZATION: So we probably aren't going to be using a class for a piece or whatever. We don't need it,
  and each piece on the board can't represent an instance of a class. So what we're going to start with is having
